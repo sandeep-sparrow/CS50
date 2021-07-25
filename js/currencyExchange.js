@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.querySelector('form').onsubmit = () => {
 
         // asking for additional information from external server
-        // a promise is end back
+        // a promise is send back
 
         const URL = 'http://api.exchangeratesapi.io/v1/latest?access_key=666b8ecb53b88ca4480a9aabc00327d6&format=1';
         
